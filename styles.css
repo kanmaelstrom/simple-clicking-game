@@ -1,0 +1,34 @@
+body {
+    background: #272727;
+}
+p, h1, button {
+    font-family: "Google Sans Code";
+    color: white;
+    margin: 10px;
+}
+h1 {
+    font-size: 25px;
+}
+.container {
+    background: #323232;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+button {
+    padding: 10px 15px 10px 15px;
+    background: #4c4c4c;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+button:hover {
+    transform: scale(1.05);
+}
+button:disabled {
+    background: rgb(123, 32, 32);
+    color: rgb(255, 255, 255);
+}
